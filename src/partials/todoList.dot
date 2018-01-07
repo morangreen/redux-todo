@@ -1,0 +1,8 @@
+{{~it.items :value:index}}
+<li>
+    <a class='todo-item-delete fn-remove-todo' data-id={{=value.id}}>x</a>
+    <span>{{=value.text}}</span>
+</li>
+{{~}}
+
+{{console.log(it.event);}}
